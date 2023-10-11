@@ -1,0 +1,11 @@
+Menu Engineering Options:
+
+1. Categorize products
+2. Show advices
+3. Search
+4. Exit the Menu Engineering App
+
+
+
+
+
