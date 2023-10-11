@@ -35,7 +35,7 @@ def reportSearch():
         # display each record 
         print(eachRecord)
     if not found:
-        print("Product not found!")
+        print("\nProduct not found!\n")
 
 # if __name__ == "__main__":
 #     report()

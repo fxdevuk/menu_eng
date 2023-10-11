@@ -1,0 +1,32 @@
+About this app:
+This app was developed by Fernando Xavier as part of the Software Development Bootcamp provided by JustIT. More info: fernandoxavier.co.uk
+
+About Menu Engineering:
+Menu Engineering is a strategic approach to designing and pricing items on a menu in the restaurant industry. It was developed by Donald I. Smith and Robert Derry in the 1980s. This technique is designed to help restaurant owners and managers make data-driven decisions about their menu offerings, with the goal of maximising profitability.
+Menu Engineering involves categorising menu items based on two key factors:
+
+Popularity: This refers to how frequently a menu item is ordered by customers. 
+Profit Margin: This is the difference between the cost of ingredients and the selling price of an item. Understanding the profit margin of each menu item is crucial in Menu Engineering.
+
+Items are categorised as: "Stars," "Plowhorses," "Puzzles," or "Dogs."
+
+"Stars" are highly popular items with a high profit margin.
+
+"Plowhorses" are popular but may not be very profitable.
+
+"Puzzles" are profitable but not ordered frequently.
+
+"Dogs" are neither popular nor profitable.
+
+The goal of Menu Engineering is to optimise the menu by:
+
+Promoting "Stars" to increase sales.
+
+Repricing or repositioning "Plowhorses" to maximise their profitability.
+
+Deciding whether to improve or remove "Puzzles."
+
+Either rework, reprice, or remove "Dogs."
+
+By categorising and analysing menu items in this way, restaurant owners and managers can make informed decisions about menu design, pricing, and promotions to boost sales and profitability. The frequency of the analysis may vary, but it's common to revisit and adjust the menu every few months to adapt to changing customer preferences and seasonal variations.
+It's important to note that while Menu Engineering provides valuable insights and recommendations, the ultimate decision on implementing changes in the menu is at the discretion of the restaurant management.

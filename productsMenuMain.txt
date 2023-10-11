@@ -1,8 +1,12 @@
+
 Main options:
 
-1. Print all products
-2. Add a product
-3. Update a product
-4. Delete a product
-5. Menu Engineering options
-6. Exit the Menu Engineering App
+1. Instructions
+2. Print all products
+3. Add a product
+4. Update a product
+5. Delete a product
+6. Menu Engineering options
+7. About
+8. Exit the Menu Engineering App
+

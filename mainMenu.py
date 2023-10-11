@@ -1,5 +1,5 @@
 # Import all modules/component
-import readproducts, addproducts, updateproducts, deleteproducts, searchproducts, categorizeproducts, advices
+import readproducts, addproducts, updateproducts, deleteproducts, searchproducts, categorizeproducts, advices, instructions, about
 
 # Function to read the respective menu file(s)
 def menuFiles():
@@ -28,7 +28,6 @@ def menuEng_menu():
     while options not in optionsList: # this will call the menuFiles function and display the menu repeatedly
          print(userChoices[0])
 
-
          # re-assign the value of the option variable(input has a string datatype by default) 
          options = input("Enter an option: ") #1/2/3/4/5/6
 
@@ -40,9 +39,7 @@ def menuEng_menu():
 # call/invoke the songs_menu function
 # print(songs_menu())
 
-
-# 
-# function for the repors sub menu
+# function for the reports sub menu
 
 def report_subMenu():
     options = 0
@@ -72,29 +69,29 @@ while mainProgram: #same as while True
 
      #check/compare if the value from the mainMenu is the same as the value in strings and call a 
      #python file and a function in the python file 
+    
     if mainMenu == "1":
+        instructions.read_Instructions()
+
+    elif mainMenu == "2":
         # call/invoke a python file and a function within that file 
         readproducts.read_data()
-    
-    elif mainMenu == "2":
-        addproducts.insert_data()
 
     elif mainMenu == "3":
-        updateproducts.update_data()
+        addproducts.insert_data()
 
     elif mainMenu == "4":
+        updateproducts.update_data()
+
+    elif mainMenu == "5":
         deleteproducts.delete_data()
     
-    elif mainMenu =="5":
-        
+    elif mainMenu == "6":
         # reports submenu 
         reportsProgram = True # create a boolean variable
-    
-    # elif mainMenu =="6":
-    #     calculateprofitability.calculateprof_data()
-    
-    # elif mainMenu =="7":
-    #     calculatepopularity.calculatepop_data()
+
+    elif mainMenu == "7":
+        about.readAbout()
 
         while reportsProgram:
             reportSubMenu = report_subMenu()# assign the report_subMenu to the reportSubMenu variable

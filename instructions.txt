@@ -1,0 +1,4 @@
+
+Instructions:
+
+Select a product category, for example, beverages, and enter the requested data. The application will then analyse the products in terms of their popularity and profitability. Based on this calculation, it categorises all products. After the analysis, you can decide whether or not to follow the recommendations provided by the application. Please note that the recommendations are only suggestions, and the decision to follow them or not is entirely the responsibility of the user.
