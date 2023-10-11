@@ -3,10 +3,10 @@ import readproducts, addproducts, updateproducts, deleteproducts, searchproducts
 
 # Function to read the respective menu file(s)
 def menuFiles():
-    with open("productsMenuMain.txt") as mainMenu1:
+    with open("menu_eng/productsMenuMain.txt") as mainMenu1:
         userMainMenu = mainMenu1.read()
 
-    with open("engineeringMenu.txt") as mainMenu2:
+    with open("menu_eng/engineeringMenu.txt") as mainMenu2:
         userReportMenu = mainMenu2.read()
     
     return userMainMenu, userReportMenu # return as a tuple[str, str]
@@ -19,7 +19,7 @@ def menuFiles():
 # function for the main songs menu 
 def menuEng_menu():
     options = 0 # create an option variable an initialise it with integer value 0
-    optionsList = ["1","2","3","4","5","6"] # create a list with string values
+    optionsList = ["1","2","3","4","5","6","7","8"] # create a list with string values
 
     # call/invoke the menuFiles function
     userChoices = menuFiles()
