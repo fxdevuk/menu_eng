@@ -71,7 +71,8 @@ while mainProgram: #same as while True
      #python file and a function in the python file 
     
     if mainMenu == "1":
-        instructions.read_Instructions()
+        optionsInstructions = instructions.read_Instructions()
+        print(optionsInstructions)
 
     elif mainMenu == "2":
         # call/invoke a python file and a function within that file 
@@ -87,7 +88,8 @@ while mainProgram: #same as while True
         deleteproducts.delete_data()
 
     elif mainMenu == "6":
-        about.readAbout()
+        optionAbout = about.readAbout()
+        print(optionAbout)
     
     elif mainMenu == "7":
         # reports submenu 
