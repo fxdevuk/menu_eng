@@ -8,7 +8,7 @@ def update_data():
     idField = input("Enter ProductID of the record to be updated: ")
 
     # field to be updated
-    fieldName = input("Enter name of product as field name").title()
+    fieldName = input("Type the name of the field will be changed\n (productname, productcost, productprice or productsales): ").title()
 
     # field value : ask for the for the Title or Artist or Genre to be updated
     fieldValue = input(f"Enter the value for the {fieldName} field: ")
@@ -16,7 +16,7 @@ def update_data():
     fieldValue = "'"+fieldValue+"'"   #  add single quotes around the field value (string)
 
     # update record
-    dbCursor.execute(F"UPDATE product SET {fieldName} = {fieldValue} WHERE ProductID = {idField}")
+    dbCursor.execute(F"UPDATE products SET {fieldName} = {fieldValue} WHERE ProductID = {idField}")
 
     dbCon.commit()
 

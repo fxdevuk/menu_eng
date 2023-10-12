@@ -6,7 +6,7 @@ Main options:
 3. Add a product
 4. Update a product
 5. Delete a product
-6. Menu Engineering options
-7. About
+6. About
+7. Menu Engineering options
 8. Exit the Menu Engineering App
 

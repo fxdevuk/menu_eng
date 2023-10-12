@@ -3,7 +3,7 @@ import readproducts, addproducts, updateproducts, deleteproducts, searchproducts
 
 # Function to read the respective menu file(s)
 def menuFiles():
-    with open("menu_eng/productsMenuMain.txt") as mainMenu1:
+    with open("menu_eng/mainMenu.txt") as mainMenu1:
         userMainMenu = mainMenu1.read()
 
     with open("menu_eng/engineeringMenu.txt") as mainMenu2:
@@ -85,13 +85,13 @@ while mainProgram: #same as while True
 
     elif mainMenu == "5":
         deleteproducts.delete_data()
-    
+
     elif mainMenu == "6":
+        about.readAbout()
+    
+    elif mainMenu == "7":
         # reports submenu 
         reportsProgram = True # create a boolean variable
-
-    elif mainMenu == "7":
-        about.readAbout()
 
         while reportsProgram:
             reportSubMenu = report_subMenu()# assign the report_subMenu to the reportSubMenu variable

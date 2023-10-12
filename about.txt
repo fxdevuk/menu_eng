@@ -1,9 +1,11 @@
 About this app:
 This app was developed by Fernando Xavier as part of the Software Development Bootcamp provided by JustIT. More info: fernandoxavier.co.uk
 
+
 About Menu Engineering:
 Menu Engineering is a strategic approach to designing and pricing items on a menu in the restaurant industry. It was developed by Donald I. Smith and Robert Derry in the 1980s. This technique is designed to help restaurant owners and managers make data-driven decisions about their menu offerings, with the goal of maximising profitability.
 Menu Engineering involves categorising menu items based on two key factors:
+
 
 Popularity: This refers to how frequently a menu item is ordered by customers. 
 Profit Margin: This is the difference between the cost of ingredients and the selling price of an item. Understanding the profit margin of each menu item is crucial in Menu Engineering.
